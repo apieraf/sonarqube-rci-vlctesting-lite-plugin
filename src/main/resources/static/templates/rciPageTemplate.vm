@@ -1,0 +1,16 @@
+<html>
+<body>
+<style>
+.chart {
+  width: 33%;
+  height: 500px;
+  display: inline-block;
+}
+</style>
+
+#if ( $rulesCompliance_measure )
+	<div id="rulesComplianceChart" class="chart"></div>
+	<script id="rulesComplianceChartScript">makeRulesComplianceChart($aValue, $bValue, $cValue, $dValue, $rulesCompliance_measure, '$messages.getString("rci.rules_compliance_index_graph")');</script>
+#end
+</body>
+</html>
