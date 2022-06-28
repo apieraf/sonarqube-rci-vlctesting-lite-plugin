@@ -11,7 +11,7 @@
 	<description>Calcula el índice de cumplimiento de reglas (ICR) para proyectos SonarQube. El ICR mide el número ponderado de evidencias respecto a las líneas de código</description>
 
 	<properties>
-		<sonar-plugin-api-version>6.7</sonar-plugin-api-version>
+		<sonar-plugin-api-version>7.4</sonar-plugin-api-version>
 		<velocity.version>1.7</velocity.version>
 		<sonar-packaging-maven-version>1.18.0.372</sonar-packaging-maven-version>
 		<jdk.version>1.8</jdk.version>
